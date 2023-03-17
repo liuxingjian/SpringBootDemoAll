@@ -1,0 +1,10 @@
+Spring:
+    jpa:
+        show-sql: true
+        hibernate:
+            dll-auto: validate
+    datasource:
+        url: jdbc:mysql://localhost:3306/stock?serverTimezone=GMT
+        username: root
+        password: 9821
+        driver-class-name: com.mysql.jdbc.Driver

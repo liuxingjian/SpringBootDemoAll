@@ -1,0 +1,17 @@
+spring:
+    jpa:
+        show-sql: true
+        hibernate:
+            dll-auto: validate
+    datasource:
+        url: jdbc:mysql://localhost:3306/stock?serverTimezone=GMT
+        username: root
+        password: 9821
+        driver-class-name: com.mysql.jdbc.Driver
+    thymeleaf:
+        enabled: true
+        content-type: text/html
+        check-template-location: true
+        cache: false
+        prefix: classpath:/templates/
+        suffix: .html

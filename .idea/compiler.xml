@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DubboServiceProvide" />
+        <module name="SecurityWithDB" />
+        <module name="ASyncDemo" />
+        <module name="SecuritySimpleDemo" />
+        <module name="RabbitMQDemo" />
+        <module name="LogDemo" />
+        <module name="ModelAndViewDemo" />
+        <module name="RedisMysqlDemo" />
+        <module name="ShiroDemo" />
+        <module name="MyCATRedisDemo" />
+        <module name="RiskPrj" />
+        <module name="AOPDemo" />
+        <module name="InterceptorDemo" />
+        <module name="MongoDBDemo" />
+        <module name="RestfulDemo" />
+        <module name="JPADemo" />
+        <module name="MyCATDemo" />
+        <module name="DubboServiceConsumer" />
+        <module name="ThymeleafWithDB" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AOPDemo" target="11" />
+      <module name="ASyncDemo" target="1.11" />
+      <module name="DubboServiceConsumer" target="1.8" />
+      <module name="DubboServiceProvide" target="1.11" />
+      <module name="InterceptorDemo" target="11" />
+      <module name="JPADemo" target="11" />
+      <module name="LogDemo" target="11" />
+      <module name="ModelAndViewDemo" target="11" />
+      <module name="MongoDBDemo" target="17" />
+      <module name="MyCATDemo" target="11" />
+      <module name="MyCATRedisDemo" target="1.11" />
+      <module name="myFirstSpringBootPrj" target="11" />
+      <module name="RabbitMQDemo" target="1.8" />
+      <module name="RedisMysqlDemo" target="1.11" />
+      <module name="RestfulDemo" target="11" />
+      <module name="RiskPrj" target="1.11" />
+      <module name="SecuritySimpleDemo" target="11" />
+      <module name="SecurityWithDB" target="17" />
+      <module name="ShiroDemo" target="17" />
+      <module name="ThymeleafWithDB" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOPDemo" options="-parameters" />
+      <module name="ASyncDemo" options="-parameters" />
+      <module name="DubboServiceConsumer" options="-parameters" />
+      <module name="DubboServiceProvide" options="-parameters" />
+      <module name="InterceptorDemo" options="-parameters" />
+      <module name="JPADemo" options="-parameters" />
+      <module name="LogDemo" options="-parameters" />
+      <module name="ModelAndViewDemo" options="-parameters" />
+      <module name="MongoDBDemo" options="-parameters" />
+      <module name="MyCATDemo" options="-parameters" />
+      <module name="MyCATRedisDemo" options="-parameters" />
+      <module name="RabbitMQDemo" options="-parameters" />
+      <module name="RedisMysqlDemo" options="-parameters" />
+      <module name="RestfulDemo" options="-parameters" />
+      <module name="RiskPrj" options="-parameters" />
+      <module name="SecuritySimpleDemo" options="-parameters" />
+      <module name="SecurityWithDB" options="-parameters" />
+      <module name="ShiroDemo" options="-parameters" />
+      <module name="ThymeleafWithDB" options="-parameters" />
+      <module name="myFirstSpringBootPrj" options="-parameters" />
+    </option>
+  </component>
+</project>

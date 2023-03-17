@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../AOPDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../InterceptorDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../JPADemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../LogDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ModelAndViewDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../RestfulDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SecuritySimpleDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ThymeleafWithDB/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AOPDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/JPADemo/pom.xml" />
+        <option value="$PROJECT_DIR$/LogDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RestfulDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/InterceptorDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/ThymeleafWithDB/pom.xml" />
+        <option value="$PROJECT_DIR$/ModelAndViewDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SecuritySimpleDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/myFirstSpringBootPrj/pom.xml" />
+        <option value="$PROJECT_DIR$/SecurityWithDB/pom.xml" />
+        <option value="$PROJECT_DIR$/ShiroDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MongoDBDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RedisMysqlDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MyCATRedisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboServiceProvide/pom.xml" />
+        <option value="$PROJECT_DIR$/DubboServiceConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQDemo2/ASyncDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/RabbitMQDemo2/RiskPrj/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11.0.3" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

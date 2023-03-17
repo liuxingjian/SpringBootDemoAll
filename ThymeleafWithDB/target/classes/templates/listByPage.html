@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="2">
+    <tr>
+        <td>库存编号</td>
+        <td>name</td>
+        <td>num</td>
+        <td>desc</td>
+    </tr>
+    <tr th:each="stock : ${stocks}">
+        <td th:text="${stock.ID}"></td>
+        <td th:text="${stock.name}"></td>
+        <td th:text="${stock.num}"></td>
+        <td th:text="${stock.description}"></td>
+    </tr>
+</table>
+<div>
+    <ul>
+        <li>
+            <a th:href="'/listByPage?pageNum=0'">home</a>
+        </li>
+        <li th:if="${stocks.hasPrevious()}">
+            <a th:href="'/listByPage?pageNum='+${stocks.previousPageable().getPageNumber}" th:text="previous"></a>
+        </li>
+        <li th:if="${stocks.hasNext()}">
+            <a th:href="'/listByPage?pageNum='+${stocks.nextPageable().getPageNumber()}" th:text="next"></a>
+        </li>
+        <li>
+            <a th:href="'/listByPage?pageNum='+${stocks.getTotalPages()-1}">end</a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

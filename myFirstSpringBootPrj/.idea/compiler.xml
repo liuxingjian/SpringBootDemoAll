@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="InterceptorDemo" />
+        <module name="myFirstSpringBootPrj" />
+        <module name="SecuritySimpleDemo" />
+        <module name="ModelAndViewDemo" />
+        <module name="LogDemo" />
+        <module name="RestfulDemo" />
+        <module name="JPADemo" />
+        <module name="ThymeleafWithDB" />
+        <module name="AOPDemo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AOPDemo" options="-parameters" />
+      <module name="InterceptorDemo" options="-parameters" />
+      <module name="JPADemo" options="-parameters" />
+      <module name="LogDemo" options="-parameters" />
+      <module name="ModelAndViewDemo" options="-parameters" />
+      <module name="RestfulDemo" options="-parameters" />
+      <module name="SecuritySimpleDemo" options="-parameters" />
+      <module name="ThymeleafWithDB" options="-parameters" />
+      <module name="myFirstSpringBootPrj" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOPDemo/AOPDemo.iml" filepath="$PROJECT_DIR$/AOPDemo/AOPDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQDemo2/ASyncDemo/ASyncDemo.iml" filepath="$PROJECT_DIR$/RabbitMQDemo2/ASyncDemo/ASyncDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DubboServiceConsumer/DubboServiceConsumer.iml" filepath="$PROJECT_DIR$/DubboServiceConsumer/DubboServiceConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DubboServiceProvide/DubboServiceProvide.iml" filepath="$PROJECT_DIR$/DubboServiceProvide/DubboServiceProvide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterceptorDemo/InterceptorDemo.iml" filepath="$PROJECT_DIR$/InterceptorDemo/InterceptorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPADemo/JPADemo.iml" filepath="$PROJECT_DIR$/JPADemo/JPADemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogDemo/LogDemo.iml" filepath="$PROJECT_DIR$/LogDemo/LogDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModelAndViewDemo/ModelAndViewDemo.iml" filepath="$PROJECT_DIR$/ModelAndViewDemo/ModelAndViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MongoDBDemo/MongoDBDemo.iml" filepath="$PROJECT_DIR$/MongoDBDemo/MongoDBDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyCATDemo/MyCATDemo.iml" filepath="$PROJECT_DIR$/MyCATDemo/MyCATDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyCATRedisDemo/MyCATRedisDemo.iml" filepath="$PROJECT_DIR$/MyCATRedisDemo/MyCATRedisDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQDemo/RabbitMQDemo.iml" filepath="$PROJECT_DIR$/RabbitMQDemo/RabbitMQDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedisMysqlDemo/RedisMysqlDemo.iml" filepath="$PROJECT_DIR$/RedisMysqlDemo/RedisMysqlDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestfulDemo/RestfulDemo.iml" filepath="$PROJECT_DIR$/RestfulDemo/RestfulDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RabbitMQDemo2/RiskPrj/RiskPrj.iml" filepath="$PROJECT_DIR$/RabbitMQDemo2/RiskPrj/RiskPrj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecuritySimpleDemo/SecuritySimpleDemo.iml" filepath="$PROJECT_DIR$/SecuritySimpleDemo/SecuritySimpleDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecurityWithDB/SecurityWithDB.iml" filepath="$PROJECT_DIR$/SecurityWithDB/SecurityWithDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShiroDemo/ShiroDemo.iml" filepath="$PROJECT_DIR$/ShiroDemo/ShiroDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThymeleafWithDB/ThymeleafWithDB.iml" filepath="$PROJECT_DIR$/ThymeleafWithDB/ThymeleafWithDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/chapter1.iml" filepath="$PROJECT_DIR$/.idea/chapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myFirstSpringBootPrj/myFirstSpringBootPrj.iml" filepath="$PROJECT_DIR$/myFirstSpringBootPrj/myFirstSpringBootPrj.iml" />
+    </modules>
+  </component>
+</project>

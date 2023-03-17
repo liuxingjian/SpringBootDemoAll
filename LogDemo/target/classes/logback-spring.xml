@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false">
+    <!-- 定义在控制台输出的日志格式 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- 定义日志输出的格式：%thread表示线程名，%d表示日期，%-5level：级别从左显示5个字符宽度，%msg：日志消息，%n是换行符-->
+            <pattern>[%thread]%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level %logger{35} - %msg%n</pattern>
+            <charset>utf-8</charset>
+        </encoder>
+    </appender>
+    <!-- 定义在文件中输出的日志格式 -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>log_%d{yyyy-MM-dd HH}.log</fileNamePattern>
+        </rollingPolicy>
+        <append>true</append>
+        <encoder>
+            <pattern>[%thread]%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+<!--    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
+<!--        <destination>localhost:9601</destination>-->
+<!--        <encoder charset="UTF-8"-->
+<!--                 class="net.logstash.logback.encoder.LogstashEncoder" >-->
+<!--            <customFields>{"appname":"StockApp"}</customFields>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <!-- 日志级别顺序为： DEBUG < INFO < WARN < ERROR -->
+    <!-- 日志输出级别 -->
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+<!--        <appender-ref ref="LOGSTASH" />-->
+    </root>
+</configuration>

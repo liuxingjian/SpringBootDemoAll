@@ -1,0 +1,5 @@
+Application Version:Version 1.0
+------------------
+welcome to Spring Boot App
+------------------
+// 定制启动信息
